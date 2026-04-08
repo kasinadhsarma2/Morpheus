@@ -9,8 +9,8 @@ jupyter-core>=4.11.2,<5.0
 jupyterlab
 nvidia-pyindex
 # Duplicated in conda dev to ensure parity with libprotobuf
-protobuf==3.20.2
+protobuf==5.29.6
 pytest-benchmark>=4.0
-torch==1.13.1+cu116
+torch==2.8.0
 tritonclient[all]==2.17.*
 websockets
